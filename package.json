@@ -6,8 +6,9 @@
   "author": "joncottrell",
   "license": "MIT",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve"
+    "clean": "rm -rf _site && mkdir _site",
+    "build": "yarn clean clean && eleventy",
+    "start": "yarn clean && eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
