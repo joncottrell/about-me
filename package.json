@@ -1,0 +1,16 @@
+{
+  "name": "bravecottrell.com",
+  "version": "1.0.0",
+  "description": "Jonathan Cottrell's personal website.",
+  "main": "index.js",
+  "author": "joncottrell",
+  "license": "MIT",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@campj/eleventy-fa-icons": "^0.0.7"
+  }
+}

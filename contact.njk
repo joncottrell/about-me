@@ -1,0 +1,46 @@
+---
+title: "Contact Jonathan Cottrell"
+layout: "layouts/base.njk"
+name: "Jonathan Cottrell"
+phone: "+1 (323)-452-3315"
+email: "jonathan@bravecottrell.com"
+instagram: "modelcottrell"
+linkedin: "cottrell-jonathan"
+---
+
+<div class="home">
+  <div style="display: flex; flex-flow: column; gap: 1.5rem; margin-top: 1rem">
+    <a class="button-27" href="https://www.instagram.com/{{instagram}}">
+      {% FontAwesomeIcon
+      name = "instagram",
+      type = "brand",
+      class = "icon"
+ %}
+      {{ instagram }}
+    </a>
+    <a class="button-28" href="https://www.linkedin.com/in/{{linkedin}}/">
+      {% FontAwesomeIcon
+      name = "linkedin",
+      type = "brand",
+      class = "icon"
+ %}
+      {{ linkedin }}
+    </a>
+    <a class="button-27" href="tel:{{phone}}">
+      {% FontAwesomeIcon
+      name = "phone",
+      type = "solid",
+      class = "icon"
+ %}
+      {{ phone }}
+    </a>
+    <a class="button-28" href="mailto:{{email}}">
+      {% FontAwesomeIcon
+      name = "envelope",
+      type = "solid",
+      class = "icon"
+ %}
+      {{ email }}
+    </a>
+  </div>
+</div>
