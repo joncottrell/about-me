@@ -19,7 +19,7 @@ api-docs/
 # Ignore eleventy output when doing manual tests
 _site/
 
-package-lock.json
+yarn.lock
 
 # Ignore test files
 .cache
