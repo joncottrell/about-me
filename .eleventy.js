@@ -1,7 +1,7 @@
-const { FontAwesomeIcon } = require("@campj/eleventy-fa-icons");
+const { FontAwesomeIcon } = require("@joncottrell/eleventy-fa-icons");
 
 module.exports = (config) => {
-  config.addNunjucksShortcode("FontAwesomeIcon", FontAwesomeIcon);
+  config.addNunjucksShortcode("FontAwesomeIcon", FontAwesomeIcon());
   config.addPassthroughCopy("css");
   config.addPassthroughCopy("images");
 };
